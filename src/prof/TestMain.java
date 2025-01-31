@@ -8,7 +8,6 @@ public class TestMain {
         System.out.println(p1);
         Personne p2 = new Personne("Lolo");
         System.out.println("Prénom : " + p2.getPrenom());
-        System.out.println("Nom : " + p2.getNom());
         System.out.println(p2);
     }
 }
