@@ -1,8 +1,8 @@
 package ex1dot5;
 
 public class InvoiceItem {
-    private String id;
-    private String desc;
+    private final String id;
+    private final String desc;
     private int qty;
     private double unitPrice;
 
