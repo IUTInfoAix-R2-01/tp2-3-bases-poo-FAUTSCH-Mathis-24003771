@@ -1,4 +1,4 @@
-package ex1;
+package ex1dot1;
 
 public class Circle {
     private double radius;
@@ -36,6 +36,10 @@ public class Circle {
     }
 
     public void setColor(String color) {
-        this.color=  color;
+        this.color = color;
+    }
+
+    public String toString() {
+        return "Circle[radius=" + radius + " color=" + color + "]";
     }
 }

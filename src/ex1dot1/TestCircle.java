@@ -1,4 +1,4 @@
-package ex1;
+package ex1dot1;
 
 public class TestCircle {
     public static void main(String[] args) {
@@ -16,5 +16,7 @@ public class TestCircle {
         System.out.println("Radius is: " + c4.getRadius()); // Print new radius
         c4.setColor("green"); // Change color
         System.out.println("Color is: " + c4.getColor()); // Print new color
+
+        System.out.println(c4); // Print a description of the circle
     }
 }
