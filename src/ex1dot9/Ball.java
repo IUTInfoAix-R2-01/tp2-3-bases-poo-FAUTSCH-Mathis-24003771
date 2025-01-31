@@ -7,12 +7,12 @@ public class Ball {
     private float xDelta;
     private float yDelta;
 
-    public Ball(float x, float y, int radius, float xDelta, float yDelta) {
+    public Ball(float x, float y, int radius, float speed, float direction) {
         this.x = x;
         this.y = y;
         this.radius = radius;
-        this.xDelta = xDelta;
-        this.yDelta = yDelta;
+        this.xDelta = (float) (speed * Math.cos(Math.toRadians(direction)));
+        this.yDelta = (float) (speed * Math.sin(Math.toRadians(direction)));
     }
 
     public float getX() {
