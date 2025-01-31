@@ -41,6 +41,7 @@ public class InvoiceItem {
         return unitPrice * qty;
     }
 
+    @Override
     public String toString() {
         return "InvoiceItem[id=" + id + ", desc=" + desc + ", qty=" + qty + ", unitPrice=" + unitPrice + "]";
     }
