@@ -1,22 +1,22 @@
 package ex1;
 
 public class Circle {
-    private final double radius;
-    private final String color;
+    private double radius;
+    private String color;
 
     public Circle() {
         radius = 1.0;
         color = "red";
     }
 
-    public Circle(double r) {
-        radius = r;
+    public Circle(double radius) {
+        this.radius = radius;
         color = "red";
     }
 
-    public Circle(double r, String c) {
-        radius = r;
-        color = c;
+    public Circle(double radius, String color) {
+        this.radius = radius;
+        this.color = color;
     }
 
     public double getRadius() {
@@ -29,5 +29,13 @@ public class Circle {
 
     public String getColor() {
         return color;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
+    public void setColor(String color) {
+        this.color=  color;
     }
 }
