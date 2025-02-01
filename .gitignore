@@ -5,10 +5,12 @@
 .project
 /bin/
 /.settings/
+*.eml
 
-# intelliJ project config files
+# intelliJ project files
 .idea
 /target/
+classes/
 
 # Log file
 *.log
