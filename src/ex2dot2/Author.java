@@ -1,4 +1,4 @@
-package ex2dot1;
+package ex2dot2;
 
 public class Author {
     private final String name;

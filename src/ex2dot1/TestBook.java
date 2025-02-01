@@ -9,7 +9,7 @@ public class TestBook {
         Book dummyBook = new Book("Java for dummy", ahTeck, 19.95, 99);  // Test Book's Constructor
         System.out.println(dummyBook);  // Test Book's toString()
 
-// Test Getters and Setters
+        // Test Getters and Setters
         dummyBook.setPrice(29.95);
         dummyBook.setQty(28);
         System.out.println("name is: " + dummyBook.getName());
