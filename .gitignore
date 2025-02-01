@@ -11,6 +11,7 @@
 .idea
 /target/
 classes/
+*.iml
 
 # Log file
 *.log
